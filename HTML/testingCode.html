@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        #image {
+            background-image: url(luffy.png);
+        }
+
+        body {
+            background-image: url(luffy.png);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: contain;
+            background-position: center;
+        }
+
+        /* picture {
+            background-size: contain;
+        } */
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        th,
+        td {
+            border-radius: 20px;
+            /* background-color: aqua; */
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        /* styling background colom */
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        th:nth-child(even),
+        td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        /* .tr tr {
+            border-bottom: 2px solid blue;
+        } */
+    </style>
+    <!-- contoh icon di judul website -->
+    <link rel="shortcut icon" href="ugj.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Kuningan</h1>
+    <img src="IMG.jpg" alt="alt" width="300">
+    <p title="opening">Home</p>
+    <pre>Oke</pre>
+
+    <p class="paragraf">
+        <b>ini bold</b><br>
+        <strong>ini strong</strong><br>
+        <i>ini italic</i><br>
+        <em>ini empasis</em><br>
+        <mark>ini mark</mark><br>
+        <small>ini small</small><br>
+        <del>ini deleted</del><br>
+        <ins>ini inserted</ins><br>
+        <sub>ini subscript</sub><br>
+        <sup>ini superscript</sup><br>
+    </p>
+
+    <!-- contoh html quotation -->
+    <h1 id="op">Contoh Kutipan</h1>
+    <p>Ini adalah teks dalam dokumen HTML yang mengandung kutipan.</p>
+
+    <!-- Kutipan singkat menggunakan elemen <q> -->
+    <p>Ada yang mengatakan, <q>Ilmu pengetahuan adalah kekuatan.</q></p>
+
+    <!-- Kutipan panjang atau blok menggunakan elemen <blockquote> -->
+    <blockquote>
+        <p>Sebuah kutipan panjang bisa dibungkus dalam elemen <code>&lt;blockquote&gt;</code>. Ini adalah cara yang baik
+            untuk menampilkan kutipan yang lebih besar.</p>
+        <p>Kutipan ini bisa memiliki beberapa paragraf dan format yang berbeda.</p>
+    </blockquote>
+
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <!-- fungsi addres -->
+    <p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+    <address>
+        Written by John Doe.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <p><cite>bagaimana keadaan anda?</cite> alhamdulillah baik</p>
+
+    <bdo dir="rtl">ini adalah contoh tag untuk memiror kalimat</bdo>
+
+    <!-- contoh color pake style -->
+    <h1 style="border: solid; color: tomato;"><span>ini header</span></h1>
+    <h2 style="border: 2px solid tomato;">ii hwader 2</h2>
+
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+    <p>Same as color name "Tomato", but 50% transparent:</p>
+    <h1 style="background-color:rgba(255, 99, 71, 0.5);" title="warna">rgba(255, 99, 71, 0.5) (contoh text dengan
+        tooltip,
+        coba tahan layar disini)</h1>
+    <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
+    <button onclick="document.location='index.html'">HTML Tutorial</button><br>
+    <a href="index.html">Link disini</a>
+
+    <h2 id="id">chapter 4</h2>
+    <a href="#op">Jump to h1</a>
+    <a href="index.html#netflix">Jump to netflix</a>
+
+    <!-- contoh image map
+    <img src="IMG.jpg" alt="alt" width="300" usemap="workmap">
+    tapi belum selesai wkwkw -->
+
+    <p style="background-image: url('luffy.png');">
+        Contoh menambah kan image dalam elemen
+    </p>
+    <p id="image">
+        contoh menambahkan image dalam elemen menggunakan style
+    </p>
+
+    <!-- <picture>
+        <source media="(min-width: 800px)" srcset="gambar-large.jpg">
+        <source media="(min-width: 400px)" srcset="gambar-medium.jpg">
+        <img src="luffy.png" style="width:auto;" alt="luffy">
+    </picture> -->
+
+    <table style="width: 100%;">
+        <caption>COntoh tabel dengan fungsi tag</caption>
+        <thead>
+            <tr>
+                <th style="width: 70%; height: 100px;">No</th>
+                <th>Nama</th>
+                <th colspan="2">Alamat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Anam</td>
+                <td>Kuningan</td>
+                <td>Jawa Barat</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tedi</td>
+                <td>Majalengka</td>
+                <td>Jawa Barat</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr style="border-width: 50px;">
+    <table style="border-bottom: 2px solid blue;">
+        <!-- contoh table colgroup  -->
+        <colgroup>
+            <col span="2">
+            <col span="1" style="background-color: yellow;">
+        </colgroup>
+        <!-- akhir table colgroup -->
+        <thead>
+            <tr>
+                <th>No</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Nama Kota</th>
+                <td>Majalengka</td>
+                <td>Kuningan</td>
+            </tr>
+            <tr>
+                <td>Cirebon</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!-- contoh deskripsi -->
+    <dl>
+        <dt>Anam</dt>
+        <dd>Kuningan</dd>
+        <dt>Tedi</dt>
+        <dd>Majalengka</dd>
+        <dt>
+            Coffe
+            <dd>Luwak white coffe</dd>
+            <dd>Good day</dd>
+            <dd>Indocaffe</dd>
+        </dt>
+    </dl>
+    <hr>
+    <div id="demo"></div>
+    <!-- Java Script -->
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+</body>
+
+</html>

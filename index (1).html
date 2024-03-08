@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Belajar Form</h1>
+    <form>
+        <div>
+            <label for="nama">Input Nama</label><br>
+            <input type="text" name="nama" placeholder="Masukkan nama" class="input-box">
+        </div>
+        <br>
+        <div>
+            <label for="user">User Name</label><br>
+            <input type="text" name="user" placeholder="Masukkan user name" class="input-box">
+        </div>
+        <br>
+        <div>
+            <label for="email">Input email</label> <br>
+            <input type="email" name="email" placeholder="Masukkan email" class="input-box">
+        </div>
+        <br>
+        <div>
+            <label for="dateBrith">Input TTL</label>
+            <input type="date" name="dateBrith" placeholder="Masukkan ttl">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Jenis Kelamin</label>
+            <input type="radio" name="Gender" value="male">
+            Pria
+            <input type="radio" name="Gender" value="female">
+            Wanita
+        </div>
+        <br>
+        <div>
+            <label for="hobi">Hobi</label>
+            <li>
+                <input type="checkbox" name="hobi" value="membaca">
+                membaca
+            </li>
+            <li>
+                <input type="checkbox" name="hobi" value="mancing">
+                memancing
+            </li>
+        </div>
+        <br>
+        <div>
+            <label for="agama">Pilih Agama</label>
+            <select name="agama" id="">
+                <option value="islam">islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">hindu</option>
+                <option value="buda">buda</option>
+            </select>
+        </div>
+        <br>
+        <button type="submit">kirim</button>
+    </form>
+</body>
+</html>

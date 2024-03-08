@@ -1,0 +1,150 @@
+/* variabel */
+:root {
+    --bluebarry: #063852;
+}
+/* End Variabel */
+
+/* Header */
+/* End Header */
+
+/* Navbar */
+/* End Navbar */
+
+/* Profil */
+/* End Profil */
+
+.navbar {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Search */
+.search-box {
+    background-color:white;
+    padding: 3.5px 10px 3.5px 8px;
+    border-radius: 25px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+}
+
+.search-box > .input-box:active {
+    border: none;
+}
+
+.fa-magnifying-glass {
+    color: black;
+}
+
+.fa-magnifying-glass:hover {
+    color: #f0810f;
+}
+/* End Search */
+
+.fa-search {
+    padding-left: 5px;
+
+}
+
+/* #011a27 */
+
+.nav-link:hover {
+    color: #e6df44;
+}
+
+.form-control {
+    border: none;
+}
+
+.bi-android2 {
+    padding-bottom: 30px;
+}
+
+.lead {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-footer {
+    background-color: var(--bluebarry);
+}
+
+.skill-icon {
+    font-size: 65px;
+}
+
+#smayamtala {
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+#gemma {
+    margin-top: -10px;
+    margin-bottom: 11px;
+}
+
+/* .contact-header ul{
+    list-style: none;
+    display: flex;
+}
+
+.contact-icon a {
+    color: white;
+    display: flex;
+    font-size: larger;
+} */
+
+
+
+.link-sosmed {
+	font-size: 1.4rem; 
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.copyright a {
+    color: white;
+}
+
+.link:hover {
+    color:#e6df44;
+}
+
+.link-sosmed:hover {
+    color:#e6df44;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.nav-item.active a {
+    color: #e6df44; /* Ganti warna sesuai keinginan Anda untuk status aktif */
+  }
+
+#experience-about {
+    
+}
+  
+#noResultMessage {
+    font-size: 1rem; 
+    font-weight: bold; 
+}
+
+.btn:hover {
+    background-color: #f0810f;
+    border-color: #f0810f;
+}

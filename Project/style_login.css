@@ -1,0 +1,40 @@
+body {
+    background-color: #051d40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .bdr {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+} */
+
+/* #image-login {
+    text-align: center;
+    align-items: center;
+} */
+
+/* .card-header { */
+    /* background-color: aqua; */
+    /* margin-top: -30px;
+    margin-bottom: -30px; */
+    /* padding-top: px; */
+/* } */
+
+/* .card { */
+    /* border-radius: 15px; */
+    /* margin-left: 50px;
+    margin-right: 59px; */
+    /* background-color: aqua; */
+/* } */
+
+/* .row {
+    background-color: aqua;
+    
+} */
+
+input[class=form-control] {
+    border-radius: 20px;
+}

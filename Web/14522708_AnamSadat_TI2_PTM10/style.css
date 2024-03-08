@@ -1,0 +1,96 @@
+body {
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+
+.kalkulator {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+button {
+    width: 50px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: teal;
+}
+
+#del:hover{
+    color: white;
+    background-color: teal;
+
+}
+
+input {
+    text-align: right;
+    margin: 10px;
+    align-content: center;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#input {
+    font-size: 20px;
+}
+
+.operator {
+    background-color: #ff8c00;
+    color: white;
+}
+
+.c {
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+#del {
+    background-color: #4caf50;
+    color: white;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+.samaDengan {
+    background-color: #4caf50;
+    color: white;
+}
+
+@media only screen and (max-width:600px){
+    .kalkulator {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    button {
+        width: 30px;
+        font-size: 14px;
+    }
+
+    #del {
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+}

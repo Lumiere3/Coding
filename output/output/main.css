@@ -1,0 +1,31 @@
+div.header {
+    width: 30%;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+div.header .user,
+div.header .pass {
+    margin-bottom: 7px;
+}
+
+div.header .user input[type=text],
+div.header .pass input[type=password] {
+    width: 96%;
+    padding: 5px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 7px;
+}
+
+div.header .btn input[type=submit] {
+    background-color: pink;
+    border: 1px solid pink;
+    width: 99%;
+    padding: 5px;
+    /* border: 1px solid grey; */
+    outline: none;
+    border-radius: 7px;
+}

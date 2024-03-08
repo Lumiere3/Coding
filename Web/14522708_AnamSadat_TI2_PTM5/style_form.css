@@ -1,0 +1,55 @@
+body {
+    background-image: url(./img/form.jpg);
+    background-size: cover;
+}
+
+.card {
+    /* text-align: center; */
+    /* background-color: white; */
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8); 
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(4px);
+}
+
+.input-box {
+    margin: 5px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 1);
+    border-width: 2px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.input-box-size {
+    font-size: 15px;
+}
+
+.text-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.text-center {
+    text-align: center;
+    align-items: center;
+}
+
+.text-center-form {
+    margin-left: 20px;
+}
+
+.submit-size {
+    font-size: larger;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.center {
+    text-align: center;
+}
+

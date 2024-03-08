@@ -1,0 +1,33 @@
+.navbar li{
+    list-style: none;
+    display: inline;
+    /* margin: 1rem; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    background-color: aqua;
+    /* padding-left: 0%; */
+    list-style: none;
+    margin-right: 20px;
+}
+
+.jumbotron {
+    background-image: url(https://www.femina.co.id/images/images/dalam%2869%29.jpg);
+    
+}
+
+/* .navbar ul {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* li {
+    width: 70px;
+} */
+
+/* .navbar ul {
+    justify-content: flex-end;
+} */
+
+/* .navbar {
+    justify-content: flex-end;
+} */

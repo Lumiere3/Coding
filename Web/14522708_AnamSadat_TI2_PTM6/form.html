@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <link rel="shortcut icon" href="./img/logo_title.png" type="image/x-icon">
+    <title>form</title>
+</head>
+<body>
+    <div class="card">
+        <h1 class="text-center text-font">Formulir</h1>
+        <form action="./home.html">
+                <div>
+                    <label for="nama" class="text-font text-center-form">Input Nama</label><br>
+                    <input type="text" name="nama" placeholder="Masukkan nama" class="input-box input-box-size">
+                </div>
+                <div>
+                    <label for="user" class="text-font text-center-form">User Name</label><br>
+                    <input type="text" name="user" placeholder="Masukkan user name" class="input-box input-box-size">
+                </div>
+                <div>
+                    <label for="password" class="text-font text-center-form">Password</label><br>
+                    <input type="password" name="password" placeholder="Masukkan password" class="input-box input-box-size">
+                </div>
+                <div>
+                    <label for="email" class="text-font text-center-form">Input email</label> <br>
+                    <input type="email" name="email" placeholder="Masukkan email" class="input-box input-box-size">
+                </div>
+                <div>
+                    <label for="dateBrith" class="text-font text-center-form">Input TTL</label>
+                    <input type="date" name="dateBrith" placeholder="Masukkan ttl" class="input-box input-box-size">
+                </div>
+                <div>
+                    <label for="Gender" class="text-font text-center-form">Jenis Kelamin</label>
+                    <input type="radio" name="Gender" value="male">
+                    <label for="gender">Pria</label>
+                    <input type="radio" name="Gender" value="female">
+                    <label for="gender">Wanita</label>
+                </div>
+                <div>
+                    <label for="hobi" class="text-font text-center-form">Hobi</label><br>  
+                        <input type="checkbox" name="hobi" value="membaca" class="text-center-form">
+                        <label for="hobi" class="text-font">berenang</label>
+                        <input type="checkbox" name="hobi" value="mancing" text-center-form>
+                        <label for="hobi" class="text-font">membaca</label>
+                        <input type="checkbox" name="hobi" value="mancing" text-center-form>
+                        <label for="hobi" class="text-font">menulis</label>
+                </div>
+                <div>
+                    <label for="agama" class="text-font text-center-form">Pilih Agama</label>
+                    <select name="agama" id="" class="input-box input-box-size">
+                        <option value="islam" class="text-font text-center-form">islam</option>
+                        <option value="kristen" class="text-font text-center-form">Kristen</option>
+                        <option value="hindu" class="text-font text-center-form">hindu</option>
+                        <option value="buda" class="text-font text-center-form">buda</option>
+                    </select>
+                </div>
+                <p><label for="deskripsi" class="text-font text-center-form">Deskripsi</label></p>
+                <textarea name="deskripsi" id="deskripsi" cols="30" rows="10" class="input-box text-font"></textarea>
+                <br>
+                <div class="center">
+                    <button type="submit" class="text-font input text-center submit-size">kirim</button>
+                </div>
+        </form>
+    </div>
+</body>
+</html>

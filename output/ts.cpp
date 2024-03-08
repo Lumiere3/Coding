@@ -1,0 +1,1 @@
+cout << "4! = " << factorial(4) << endl;

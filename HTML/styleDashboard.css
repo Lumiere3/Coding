@@ -1,0 +1,52 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+a {
+  border-radius: 20px;  
+  padding: 5px 20px;
+  margin: 1px;
+  background-color: #777;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+}
+
+div {
+  max-width: 400px;
+  margin: 3em auto;
+}
+
+th, td {
+  border: solid 1px black;
+}
+
+/* ul p {
+  color: white;
+} */
+
+footer {
+  text-align: center;
+}
+
+#about{
+  text-align: left;
+  padding: 30px;
+}
+
+#aboutP {
+  text-align: justify;
+  
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>kalkulator</h1>
+    </header>
+    <main>
+        <div class="kalkulator">
+            <input type="text" name="nama" id="input" placeholder="enter number" disabled>
+            <div>
+                <button onclick="clean()" class="c">C</button>
+                <button onclick="persen()" class="operator">%</button>
+                <button onclick="backspace()" id="del">←</button>
+            </div>
+            <div>
+                <button onclick="tambahAngka('7')">7</button>
+                <button onclick="tambahAngka('8')">8</button>
+                <button onclick="tambahAngka('9')">9</button>
+                <button onclick="tambahAngka('/')" class="operator">÷</button>
+            </div>
+            <div>
+                <button onclick="tambahAngka('4')">4</button>
+                <button onclick="tambahAngka('5')">5</button>
+                <button onclick="tambahAngka('6')">6</button>
+                <button onclick="tambahAngka('*')" class="operator">x</button>
+            </div>
+            <div>
+                <button onclick="tambahAngka('1')">1</button>
+                <button onclick="tambahAngka('2')">2</button>
+                <button onclick="tambahAngka('3')">3</button>
+                <button onclick="tambahAngka('-')" class="operator">-</button>
+            </div>
+            <div>
+                <button onclick="tambahAngka('0')">0</button>
+                <button onclick="tambahAngka('.')">.</button>
+                <button onclick="calculate()" class="samaDengan">=</button>
+                <button onclick="tambahAngka('+')" class="operator">+</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+

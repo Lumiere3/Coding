@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/fontawasome/css/all.min.css">
+    <link rel="stylesheet" href="./asset/fontawasome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./asset/fileicons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./asset/img/icon.png" type="image/x-icon">
+    <title>Portofolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="portofolio">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top flex-row fixed-top-sm d-flex"
+            style="background-color: #011a27;">
+            <div class="container">
+                <a class="navbar-brand" href="#portofolio">Portofolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item active" data-target="profil">
+                            <a class="nav-link " aria-current="page" href="#profil">Home</a>
+                            <!-- scroll-link -->
+                        </li>
+                        <li class="nav-item" data-target="about">
+                            <a class="nav-link " href="#about">About</a>
+                            <!-- scroll-link -->
+                        </li>
+                        <li class="nav-item" data-target="experience-about">
+                            <a class="nav-link " href="#experience-about">Experience-about</a>
+                            <!-- scroll-link -->
+                        </li>
+                        <li class="nav-item" data-target="experience">
+                            <a class="nav-link " href="#experience">Experience</a>
+                            <!-- scroll-link -->
+                        </li>
+                        <li class="nav-item" data-target="contact">
+                            <a class="nav-link scroll-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown" data-target="anime">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">More</a>
+                            <!-- scroll-link -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./anime.html">Anime</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <div class="search-box d-flex mx-3">
+                        <a href=""><i class="fa-solid fa-magnifying-glass mt-2"></i></a>
+                        <input class="form-control-sm" type="text" placeholder="Search More...">
+                    </div> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end Header -->
+
+    <!-- Main -->
+    <main>
+        <!-- Jumbotron/Profil -->
+        <section class="py-5" style="background-color: #011a27;" id="profil">
+            <div class="jumbotron">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="text-center my-5">
+                                <div>
+                                    <img src="./asset/img/luffy.jpg" class="img-thumbnail rounded-circle mb-4"
+                                        alt="luffy" width="200">
+                                </div>
+                                <h1 class="display-6 fw-bolder text-white mb-2 text-uppercase">Anam Sadat</h1>
+                                <p class="lead mb-4 text-white fw-normal">
+                                    Saya Mahasiswa STIKOM Poltek Cirebon. Saya telah membuat project akhir web desain
+                                    sebagai syarat untuk mengikuti Ujian Akhir Semester dan Ujian Praktikum Web Desain
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Jumbotron/profil -->
+
+        <!-- Waves -->
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 160" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,0L48,0C96,0,192,0,288,10.7C384,21,480,43,576,58.7C672,75,768,85,864,82.7C960,80,1056,64,1152,50.7C1248,37,1344,27,1440,24C1536,21,1632,27,1728,42.7C1824,59,1920,85,2016,88C2112,91,2208,69,2304,66.7C2400,64,2496,80,2592,72C2688,64,2784,32,2880,32C2976,32,3072,64,3168,85.3C3264,107,3360,117,3456,112C3552,107,3648,85,3744,82.7C3840,80,3936,96,4032,90.7C4128,85,4224,59,4320,42.7C4416,27,4512,21,4608,37.3C4704,53,4800,91,4896,101.3C4992,112,5088,96,5184,85.3C5280,75,5376,69,5472,64C5568,59,5664,53,5760,50.7C5856,48,5952,48,6048,42.7C6144,37,6240,27,6336,24C6432,21,6528,27,6624,45.3C6720,64,6816,96,6864,112L6912,128L6912,160L6864,160C6816,160,6720,160,6624,160C6528,160,6432,160,6336,160C6240,160,6144,160,6048,160C5952,160,5856,160,5760,160C5664,160,5568,160,5472,160C5376,160,5280,160,5184,160C5088,160,4992,160,4896,160C4800,160,4704,160,4608,160C4512,160,4416,160,4320,160C4224,160,4128,160,4032,160C3936,160,3840,160,3744,160C3648,160,3552,160,3456,160C3360,160,3264,160,3168,160C3072,160,2976,160,2880,160C2784,160,2688,160,2592,160C2496,160,2400,160,2304,160C2208,160,2112,160,2016,160C1920,160,1824,160,1728,160C1632,160,1536,160,1440,160C1344,160,1248,160,1152,160C1056,160,960,160,864,160C768,160,672,160,576,160C480,160,384,160,288,160C192,160,96,160,48,160L0,160Z">
+            </path>
+        </svg>
+        <!-- End Waves -->
+
+        <!-- About -->
+        <section class="py-5" id="about">
+            <div class="container px-5">
+                <h1 class="display-5 fw-bolder text-center mt-4 mb-2">About</h1>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-md-6">
+                        <div class="my-5">
+                            <p>
+                                Saya Anam Sadat, Saya tinggal di Kuningan yang beralamatkan Kelurahan Citangtu Kecamatan
+                                Kuningan
+                                Kabupaten Kuningan Provinsi Jawa Barat. Sekarang Saya sedang menempuh pendidikan jenjang
+                                S1 Prodi Teknik Informatika di STIKOM Poltek Cirebon
+                                yang beralamat di Kecamatan Kedawung Kabupaten Cirebon Provinsi Jawa Barat. Sebelum
+                                meneruskan ke jenjang yang lebih tinggi,
+                                Saya pernah Sekolah di SMK Yamsik Kuningan lulusan jurusan Teknik Komputer dan Jaringan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="my-5">
+                            <p>
+                                Sekarang Saya ngekos di Kedawung di belakang kampus, agar tidak pulang pergi karena
+                                rumah Saya berada
+                                di Kuningan, agar tidak memberatkan fisik juga karena Saya berada di kelas TI 2, dengan
+                                kata lain
+                                setiap pelajaran pasti setelah TI 1 dan jam belajar nya pun di siang hari atau bahkan
+                                sampai maghrib.
+                                Jadi saya memutuskan untuk ngekos karena hemat biaya juga dan mempermudah saya untuk
+                                belajar karena dekat dengan teman.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About -->
+
+        <!-- Waves -->
+        <svg id="wave" style="transform:rotate(0deg); transition: 0.3s;" viewBox="0 0 1440 160" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,64L48,69.3C96,75,192,85,288,98.7C384,112,480,128,576,130.7C672,133,768,123,864,114.7C960,107,1056,101,1152,85.3C1248,69,1344,43,1440,37.3C1536,32,1632,48,1728,56C1824,64,1920,64,2016,64C2112,64,2208,64,2304,74.7C2400,85,2496,107,2592,98.7C2688,91,2784,53,2880,56C2976,59,3072,101,3168,112C3264,123,3360,101,3456,93.3C3552,85,3648,91,3744,98.7C3840,107,3936,117,4032,125.3C4128,133,4224,139,4320,141.3C4416,144,4512,144,4608,133.3C4704,123,4800,101,4896,96C4992,91,5088,101,5184,101.3C5280,101,5376,91,5472,93.3C5568,96,5664,112,5760,120C5856,128,5952,128,6048,120C6144,112,6240,96,6336,74.7C6432,53,6528,27,6624,34.7C6720,43,6816,85,6864,106.7L6912,128L6912,160L6864,160C6816,160,6720,160,6624,160C6528,160,6432,160,6336,160C6240,160,6144,160,6048,160C5952,160,5856,160,5760,160C5664,160,5568,160,5472,160C5376,160,5280,160,5184,160C5088,160,4992,160,4896,160C4800,160,4704,160,4608,160C4512,160,4416,160,4320,160C4224,160,4128,160,4032,160C3936,160,3840,160,3744,160C3648,160,3552,160,3456,160C3360,160,3264,160,3168,160C3072,160,2976,160,2880,160C2784,160,2688,160,2592,160C2496,160,2400,160,2304,160C2208,160,2112,160,2016,160C1920,160,1824,160,1728,160C1632,160,1536,160,1440,160C1344,160,1248,160,1152,160C1056,160,960,160,864,160C768,160,672,160,576,160C480,160,384,160,288,160C192,160,96,160,48,160L0,160Z">
+            </path>
+        </svg>
+        <!-- End Waves -->
+
+        <!-- Experience -->
+        <section class="py-5" style="background-color: #011a27;" id="experience-about">
+            <div class="container text-center">
+                <h1 class="text-white display-5 fw-bolder mb-3">Experience</h1>
+                <p class="lead text-white mb-5">Pengalaman saya selama berkarir.
+                </p>
+                <!-- Study -->
+                <div class="skill-container">
+                    <h2 class="text-white fw-bold mb-4">Study</h2>
+                    <div class="row">
+                        <div class="col mb-5">
+                            <div class="skill-icon text-white"><img src="./asset/img/Stikom poltek Cirebon.png"
+                                    class="img-thumbnai" alt="" width="250"></div>
+                            <div class="skill-descript text-white">
+                                <h3>Stikom Poltek Cirebon</h3>
+                                <p>
+                                    STIKOM Poltek Cirebon adalah salah satu sekolah tinggi yang ada di Cirebon yang
+                                    beralamat Kecamatan
+                                    Kedawung Kabupaten Cirebon. Memiliki 4 Prodi yaitu S1 ada Teknik Informatika dan
+                                    Sistem Informasi
+                                    lalu D3 ada Manajemen Informatika dan Komputerisasi Akutansi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Study -->
+            </div>
+        </section>
+        <!-- End Experience -->
+
+        <!-- Waves -->
+        <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="0%"></stop>
+                    <stop stop-color="rgba(1, 26, 39, 1)" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                d="M0,10L48,20C96,30,192,50,288,56.7C384,63,480,57,576,45C672,33,768,17,864,11.7C960,7,1056,13,1152,18.3C1248,23,1344,27,1440,30C1536,33,1632,37,1728,45C1824,53,1920,67,2016,60C2112,53,2208,27,2304,18.3C2400,10,2496,20,2592,20C2688,20,2784,10,2880,15C2976,20,3072,40,3168,45C3264,50,3360,40,3456,38.3C3552,37,3648,43,3744,43.3C3840,43,3936,37,4032,33.3C4128,30,4224,30,4320,31.7C4416,33,4512,37,4608,40C4704,43,4800,47,4896,41.7C4992,37,5088,23,5184,18.3C5280,13,5376,17,5472,25C5568,33,5664,47,5760,55C5856,63,5952,67,6048,56.7C6144,47,6240,23,6336,18.3C6432,13,6528,27,6624,33.3C6720,40,6816,40,6864,40L6912,40L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z">
+            </path>
+        </svg>
+        <!-- End Waves -->
+
+        <!-- Project -->
+        <section class="py-5" id="experience">
+            <div class="container text-center px-5">
+                <!-- Skill -->
+                <div class="skill-container">
+                    <h2 class="fw-bold mb-4 mt-5">Skills</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="skill-icon"><span><i class="bi bi-android2"></i></span></div>
+                            <div class="skill-descript">
+                                <h3>Android</h3>
+                                <p>
+                                    Pernah bekerja di PT Samsung Eletronics Indonesia sebagai Development Mobile.<br>
+                                    Bahasa Pemrograman: Kotlin, C++, C, C#, Java
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="skill-icon"><span><i class="bi bi-apple"></i></span></div>
+                            <div class="skill-descript">
+                                <h3>Apple IOS</h3>
+                                <p>
+                                    Pengalaman selama 100 tahun di Apple inc. dan menjadi Manager. <br>
+                                    Bahasa Pemrograman: Swift
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="skill-icon"><span><i class="fa-solid fa-pen-nib"></i></span></div>
+                            <div class="skill-descript">
+                                <h3>Design</h3>
+                                <p>
+                                    Berpengalaman di bidang desain dan sudah banyak membuat desain logo dll, <br>
+                                    Aplikasi: Photoshop, Adobe Ilustrator, Corel draw, Canva
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-5">
+                            <div class="skill-icon"><span><i class="fa-solid fa-code"></i></span></div>
+                            <div class="skill-descript">
+                                <h3>Developer</h3>
+                                <p>
+                                    Saya sudah menguasai beberapa Bahasa Pemrograman hingga tingat expert
+                                    Bahasa Pemrograman: Golang, JavaScript, Python, PHP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Skill -->
+                <!-- organisasi -->
+                <div class="organisasi-container">
+                    <h2 class="fw-bold mb-4">Organisasi</h2>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="organisasi-img" id="gemma"><img src="./asset/img/Logo Gemma.png"
+                                    class="img-fluid" alt="" width="200"></div>
+                            <div class="skill-descript">
+                                <h3>GEMMA-SI</h3>
+                                <p class="">
+                                    Generasi Muda Masjig Agung Syi'arul Islam(GEMMA-SI) adalah remaja masjid yang berada
+                                    di tamankota
+                                    dan pengalaman saya menjabat 2 angkatan yaitu 46 dan 47. Pada angkatan 47 saya
+                                    menjabat sebagai Wakil Ketua 1
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="organisasi-img mt-3 mb-4"><img src="./asset/img/logo artmediaa (1).png"
+                                    class="img-fluid" alt="" width="160"></div>
+                            <div class="skill-descript">
+                                <h3>Art Media</h3>
+                                <p>
+                                    Art Media adalah organisasi kampus yang bertema dengan media seperti photography,
+                                    editing dan broadcasting
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="organisasi-img" id="smayamtala"><img src="./asset/img/smayamtala.png"
+                                    class="img-fluid" alt="" width="210"></div>
+                            <div class="skill-descript">
+                                <h3>Smayamtala</h3>
+                                <p>
+                                    Smayamtala adalah organisasi pecinta alam yang ada di SMK Yamsik Kuningan dan
+                                    memiliki forum sispala se-Jawa Barat
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="organisasi-img mt-3 mb-4"><img src="./asset/img/himakom.png" class="img-fluid"
+                                    alt="" width="160"></div>
+                            <div class="skill-descript">
+                                <h3>Himakom</h3>
+                                <p>
+                                    Himpunan Mahasiswa Komputer(Himakom) adalah organisasi kampus yang bertema tentang
+                                    keorganisasian yang didalamnya
+                                    beberapa prodi yang di satukan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end organisasi -->
+            </div>
+        </section>
+        <!-- End Project -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#063852" fill-opacity="1"
+                d="M0,256L80,245.3C160,235,320,213,480,213.3C640,213,800,235,960,245.3C1120,256,1280,256,1360,256L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+    </main>
+    <!-- End Main -->
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer py-5" style="background-color: #063852;">
+            <div class="container text-white py-5">
+                <!-- Contact -->
+                <div class="contact-header text-center">
+                    <h1 class="fw-bold mb-3">Contact</h1>
+                    <p class="mb-5">Contact saya ketika anda ingin bersilatuhrami dengan saya</p>
+                </div>
+                <!-- End Contact -->
+                <!-- Form -->
+                <div class="col-lg-12">
+                    <form>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        placeholder="saskeh@gmail.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="exampleInputPassword1" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1"
+                                        placeholder="saskeh" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mb-3">
+                            <label for="floatingTextarea2Disabled" class="mb-2">Comments</label>
+                            <textarea class="form-control" placeholder="Comments disini...."
+                                id="floatingTextarea2Disabled" style="height: 200px" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary px-5 rounded-5">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- End Form -->
+            </div>
+        </div>
+        <div class="copyright py-5" style="background-color: #011a27;">
+            <div class="container">
+                <div class="row">
+                    <!-- Sosial Media -->
+                    <div class="col-lg-12 text-center text-white justify-content-center">
+                        <div class="social-container mb-4">
+                            <h4 class="mb-3">Sosial Media</h4>
+                            <span class="fa-stack">
+                                <a class="link-sosmed" target="_blank"
+                                    href="https://www.facebook.com/anam.ronaldo.77?mibextid=ZbWKwL">
+                                    <i class="fab fa-facebook-f" title="facebook"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a class="link-sosmed" target="_blank"
+                                    href="https://www.tiktok.com/@ifelseee?_r=1&_d=e1jkjfmig0d8ce&sec_uid=MS4wLjABAAAA6ey03G3JY16ui7yUrImF2ddLyOF3huj6KNZgfQsJt3RzbKYswKfaLAXx161SnyGb&share_author_id=7097392922508968962&sharer_language=id&source=h5_t&u_code=ec7fl987dld7j6&timestamp=1705906971&user_id=7326814183637713926&sec_user_id=MS4wLjABAAAAdrEeTv0UmncLTK-MyRB3IcmlvI6zuyV1wIjlyAyDoayzZ-V2LWeZb9KFAe4DvS36&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7236302177131366145&share_link_id=c17d3228-7fd4-4ed3-9155-4fada457dccc&share_app_id=1180&ugbiz_name=Account&ug_btm=b6880%2Cb5836&social_share_type=5">
+                                    <i class="bi bi-tiktok" title="tiktok"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a class="link-sosmed" target="_blank"
+                                    href="https://www.instagram.com/anam.sdttt?igsh=OTQzbTE0a2pkbmti">
+                                    <i class="bi bi-instagram" title="instagram"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a class="link-sosmed" target="_blank" href="https://wa.me/62895343428566?">
+                                    <i class="bi bi-whatsapp" title="whatsapp"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a class="link-sosmed" target="_blank"
+                                    href="https://www.linkedin.com/in/anam-sadat-7a1b55253/">
+                                    <i class="bi bi-linkedin" title="linkedin"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <!-- Enc Sosial Media -->
+                    <!-- CopyRigth -->
+                    <div class="col-lg-12 text-white">
+                        <p class="text-white">Copyright © Anam Sadat</p>
+                        <p class="text-white">Contact me : <a class="wa"
+                                href="https://wa.me/62895343428566?">+62895343428566</a></p>
+                    </div>
+                    <!-- End Copyrigth -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./asset/js/bootstrap.bundle.js"></script>
+    <script src="./script.js"></script>
+    <script src="./asset/fontawasome/js/all.min.js"></script>
+    <script src="./scroll-navbar.js"></script>
+
+</body>
+
+</html>

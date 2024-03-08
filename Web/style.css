@@ -1,0 +1,56 @@
+#header-resume{
+	background-image: url(images/header.jpg);
+	height: 400px;
+	background-size: cover;
+	opacity: 0.7;
+	background-position: center;
+}
+
+#header-nav ul{
+	word-spacing: 25px;
+	padding-top: 50px;
+}
+
+#header-nav li{
+	display: inline-block;
+}
+
+#header-nav li a{
+	text-decoration: none;
+	color: darkblue;
+}
+
+.nav-menu li a{
+	transition: color 0.5s, border-buttom 4s;
+}
+
+.nav-menu li a:hover{
+	color: red;
+	border-bottom: 1px solid red;
+}
+
+p{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+img{
+	height: 400px;
+	width: 600px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#description{
+	margin-top: 50px;
+}
+
+#myPhoto{
+	margin-top: 60px;
+}
+
+#about-section{
+	background-color: lightblue;
+}
